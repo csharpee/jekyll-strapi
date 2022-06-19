@@ -41,37 +41,37 @@ Now you should have reachable Strapi instance here [http://localhost:1337/](http
 
 Go to Content-Type Build in your admin instance [http://localhost:1337/admin/plugins/content-type-builder/](http://localhost:1337/admin/plugins/content-type-builder/) and then create Collection as below:
 
-![image](/assets/images/s-01.jpg)
+![image](../assets/images/s-01.jpg)
 
 To creat the fields choose:
 
-**Text** field for the *Title*, type of **Short text**: 
+**Text** field for the *Title*, type of **Short text**:
 
 
-![image](/assets/images/s-02.jpg)
+![image](../assets/images/s-02.jpg)
 
 **Media** field with a name *Image*, type **Single media**:
 
-![image](/assets/images/s-03.jpg)
+![image](../assets/images/s-03.jpg)
 
 **Text** *Comment* field, we will use **Long text**:
 
-![image](/assets/images/s-04.jpg)
+![image](../assets/images/s-04.jpg)
 
 Finally you should have something similar to:
 
-![image](/assets/images/s-00.jpg)
+![image](../assets/images/s-00.jpg)
 
 
 Now go to **Content Manager** and add your first object to the database:
 
-![image](/assets/images/s-07.jpg)
+![image](../assets/images/s-07.jpg)
 
 #### Auth token generation
 
 Go to: [http://localhost:1337/admin/settings/api-tokens/create](http://localhost:1337/admin/settings/api-tokens/create) and *Create new token*:
 
-![image](/assets/images/s-05.jpg)
+![image](../assets/images/s-05.jpg)
 
 After creation save token aside - you will need it later. Some [password manager](https://github.com/keepassxreboot/keepassxc/) is recommended.
 
@@ -87,7 +87,7 @@ MAIN_PATH=`pwd`
  cd $MAIN_PATH
  ```
 
-This is will a plugin which you will install later 
+This is will a plugin which you will install later
 
 ### Jekyll configuration
 
@@ -166,7 +166,7 @@ layout: default
 Now you must to set enviromental variable with auth token (you need to use previously saved token here):
 
 ```
-export STRAPI_TOKEN=328438953489534...345423053895 
+export STRAPI_TOKEN=328438953489534...345423053895
 ```
 
 and now you can generate your page:
