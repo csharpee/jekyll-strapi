@@ -17,8 +17,6 @@ gem "minima", "~> 2.5"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "webrick", "~> 1.7" # Ruby 3.0 doesn't include webrick anymore in 4.2.2 https://github.com/jekyll/jekyll/issues/8523
-  gem "down", "~> 1.1.0" # this is for jekyll-strapi integration down dep.
-  gem "jekyll-strapi", "~> 0.1.3" # must have gem installed to make use of jekyll-strapi integration
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
